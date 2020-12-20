@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p><a href="../index.html" class="link">back</a></p>
+    <style type="text/css">
+      .link {
+        display: inline-block;
+        padding: 4px 30px;
+        text-decoration: none;
+        color: #5daa68;
+        background: #3f6844;
+        border-radius: 3px;
+        border: solid 1px #3f6844;
+      }
+
+      .link:hover {
+        color: #faf1cf;
+        background: #5daa68;
+        border-color: #faf1cf;
+      }
+    </style>
+    <div id="controls">
+      <input type="number" min="0" max="100" step="1" />
+      <button type="button" data-action="render">Создать</button>
+      <button type="button" data-action="destroy">Очистить</button>
+    </div>
+
+    <div id="boxes"></div>
+    <script src="../js/task-08.js" type="module"></script>
+  </body>
+</html>

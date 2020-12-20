@@ -1,0 +1,39 @@
+body {
+  background-color: #5daa68;
+}
+
+.homework {
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+h1 {
+  color: #3f6844;
+}
+
+.list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list li:not(:first-child) {
+  margin-top: 10px;
+}
+
+.link {
+  display: inline-block;
+  padding: 4px 30px;
+  text-decoration: none;
+  color: #5daa68;
+  background: #3f6844;
+  border-radius: 3px;
+  border: solid 1px #3f6844;
+}
+
+.link:hover {
+  color: #faf1cf;
+  background: #5daa68;
+  border-color: #faf1cf;
+}
